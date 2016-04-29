@@ -102,7 +102,7 @@ type FlowAction struct {
 	InputParam  tk.M        `json:"inputparam"`
 	OutputParam tk.M        `json:"outputparam"`
 	OutputType  string      `json:"outputtype"`
-	OutputPath  string      `json:"outputtype"`
+	OutputPath  string      `json:"outputpath"`
 }
 
 // ActionHive action for HIVE
